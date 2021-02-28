@@ -3,30 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </head>
 <body>
 
 <header>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+  <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">How The Internet Works</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="page1.html">How The Internet Works</a></li>
-      <li><a href="page2.html">Domain Names & ICANN</a></li>
-      <li><a href="page3.html">IP Addresses, Packets, & Routing</a></li>
-      <li><a href="page4.html">DNS</a></li>
-      <li><a href="page5.html">HTTP & HTTPS Protocols</a></li>
-      <li><a href="page6.html">W3C, HTML, & CSS</a></li>
-    </ul>
+      <a class="navbar-brand mr-3" href="home.html">How The Internet Works</a>
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="about.html" class="nav-item nav-link active">About</a>
+                <a href="page1.html" class="nav-item nav-link">How The Internet Works</a>
+                <a href="page2.html" class="nav-item nav-link">Domain Names & ICANN</a>
+                <a href="page3.html" class="nav-item nav-link">IP Addresses, Packets & Routing</a>
+                <a href="page4.html" class="nav-item nav-link">DNS</a>
+                <a href="page5.html" class="nav-item nav-link">HTTP & HTTPS Protocols</a>
+                <a href="page6.html" class="nav-item nav-link">W3C, HTML, & CSS</a>
+            </div>
+        </div>
+  </div>
   </div>
 </nav>
 </header>
+
 
 
 </body>
